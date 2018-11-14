@@ -27,18 +27,13 @@ namespace Projeto1.Fundamentos
 				{
 					Console.WriteLine("Você foi reprovado e a sua média foi {0}: ", media);
 				}
-			}
-			
 
-
-			
-			/*Console.WriteLine("Nota Invalida? {0}", nota > 10.0);
-			Console.WriteLine("Nota Invalida? {0}", nota < 0.0);
-			Console.WriteLine("Perfeito? {0}", nota == 10.0);
-			Console.WriteLine("Tem como melhorar? {0}", nota != 10.0);
-			Console.WriteLine("Passou por média? {0}", nota >= notaDeCorte);
-			Console.WriteLine("Recuperação? {0}", nota < notaDeCorte);
-			Console.WriteLine("Reprovado? {0}", nota <= 3.0);*/
+			}	
+			/*Console.WriteLine("Nota Invalida? {0}", nota1 > 10.0 && nota2 > 10.0);
+			Console.WriteLine("Nota Invalida? {0}", nota1 > 10.0 && nota2 < 0.0);
+			Console.WriteLine("Perfeito? {0}", media == 10.0);
+			Console.WriteLine("Tem como melhorar? {0}", media != 10.0);
+			Console.WriteLine("Reprovado? {0}", media <= 3.0);*/
 		}
 	}
 }

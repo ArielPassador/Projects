@@ -16,6 +16,11 @@ namespace Projeto1 {
 				{"Lendo dados do Console - Fundamentos", LendoDados.Executar},
 				{"Formatando dados - Fundamentos", FormatandoNumeros.Executar},
 				{"Conversoes - Fundamentos", Conversoes.Executar},
+				{"Operadores Aritmeticos - Fundamentos", OperadoresAritmeticos.Executar},
+				{"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
+				{"Operadores Lógicos - Fundamentos", OperadoresLogicos.Executar},
+				{"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
+
 
 
             });

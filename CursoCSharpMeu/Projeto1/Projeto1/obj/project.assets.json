@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ariel.passador\\source\\repos\\Projeto1\\Projeto1\\Projeto1.csproj",
+      "projectUniqueName": "C:\\Projects\\CursoCSharpMeu\\Projeto1\\Projeto1\\Projeto1.csproj",
       "projectName": "Projeto1",
-      "projectPath": "C:\\Users\\ariel.passador\\source\\repos\\Projeto1\\Projeto1\\Projeto1.csproj",
+      "projectPath": "C:\\Projects\\CursoCSharpMeu\\Projeto1\\Projeto1\\Projeto1.csproj",
       "packagesPath": "C:\\Users\\ariel.passador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ariel.passador\\source\\repos\\Projeto1\\Projeto1\\obj\\",
+      "outputPath": "C:\\Projects\\CursoCSharpMeu\\Projeto1\\Projeto1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

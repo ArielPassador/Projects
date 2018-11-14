@@ -9,3 +9,14 @@ C:\Users\ariel.passador\source\repos\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\P
 C:\Users\ariel.passador\source\repos\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.AssemblyInfo.cs
 C:\Users\ariel.passador\source\repos\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.dll
 C:\Users\ariel.passador\source\repos\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.pdb
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.dll
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.pdb
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\bin\Debug\netcoreapp2.1\Projeto1.deps.json
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\bin\Debug\netcoreapp2.1\Projeto1.runtimeconfig.json
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\bin\Debug\netcoreapp2.1\Projeto1.runtimeconfig.dev.json
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\bin\Debug\netcoreapp2.1\Projeto1.dll
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\bin\Debug\netcoreapp2.1\Projeto1.pdb
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.csprojAssemblyReference.cache
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.csproj.CoreCompileInputs.cache
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.AssemblyInfoInputs.cache
+C:\Projects\CursoCSharpMeu\Projeto1\Projeto1\obj\Debug\netcoreapp2.1\Projeto1.AssemblyInfo.cs

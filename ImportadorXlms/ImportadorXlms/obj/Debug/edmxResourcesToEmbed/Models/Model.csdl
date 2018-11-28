@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ImportadorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DataContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="importacao" EntityType="ImportadorModel.importacao" />
+  </EntityContainer>
+  <EntityType Name="importacao">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="cliente_id" />
+      <PropertyRef Name="origem_id" />
+      <PropertyRef Name="destino_id" />
+      <PropertyRef Name="aeronave_id" />
+      <PropertyRef Name="filial_id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="cliente_id" Type="Int32" Nullable="false" />
+    <Property Name="origem_id" Type="Int32" Nullable="false" />
+    <Property Name="destino_id" Type="Int32" Nullable="false" />
+    <Property Name="aeronave_id" Type="Int32" Nullable="false" />
+    <Property Name="filial_id" Type="Int32" Nullable="false" />
+    <Property Name="schedule_mensal_detalhe_id" Type="Int32" />
+    <Property Name="usuario_id" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="data_conclusao" Type="DateTime" Precision="3" />
+    <Property Name="data_cancelamento" Type="DateTime" Precision="3" />
+    <Property Name="voo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="prefixo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="observacao" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="motivo_cancelamento" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="tipo_ordem_servico" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="proximo_dia" Type="Boolean" />
+  </EntityType>
+</Schema>

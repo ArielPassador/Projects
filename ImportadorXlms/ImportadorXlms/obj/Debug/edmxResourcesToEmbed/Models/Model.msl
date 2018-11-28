@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ImportadorModelStoreContainer" CdmEntityContainer="DataContext">
+    <EntitySetMapping Name="importacao">
+      <EntityTypeMapping TypeName="ImportadorModel.importacao">
+        <MappingFragment StoreEntitySet="importacao">
+          <ScalarProperty Name="proximo_dia" ColumnName="proximo_dia" />
+          <ScalarProperty Name="tipo_ordem_servico" ColumnName="tipo_ordem_servico" />
+          <ScalarProperty Name="motivo_cancelamento" ColumnName="motivo_cancelamento" />
+          <ScalarProperty Name="observacao" ColumnName="observacao" />
+          <ScalarProperty Name="prefixo" ColumnName="prefixo" />
+          <ScalarProperty Name="voo" ColumnName="voo" />
+          <ScalarProperty Name="data_cancelamento" ColumnName="data_cancelamento" />
+          <ScalarProperty Name="data_conclusao" ColumnName="data_conclusao" />
+          <ScalarProperty Name="usuario_id" ColumnName="usuario_id" />
+          <ScalarProperty Name="schedule_mensal_detalhe_id" ColumnName="schedule_mensal_detalhe_id" />
+          <ScalarProperty Name="filial_id" ColumnName="filial_id" />
+          <ScalarProperty Name="aeronave_id" ColumnName="aeronave_id" />
+          <ScalarProperty Name="destino_id" ColumnName="destino_id" />
+          <ScalarProperty Name="origem_id" ColumnName="origem_id" />
+          <ScalarProperty Name="cliente_id" ColumnName="cliente_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

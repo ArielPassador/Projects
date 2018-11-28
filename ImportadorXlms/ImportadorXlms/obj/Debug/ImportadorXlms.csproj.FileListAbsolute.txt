@@ -22,3 +22,7 @@ C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\obj\Debug\Importad
 C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\obj\Debug\ImportadorXlms.exe
 C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\obj\Debug\ImportadorXlms.pdb
 C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\obj\Debug\ImportadorXlms.csprojAssemblyReference.cache
+C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\bin\Debug\EntityFramework.dll
+C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\bin\Debug\EntityFramework.xml
+C:\Users\ariel.passador\Desktop\ImportadorXlms\ImportadorXlms\bin\Debug\EntityFramework.SqlServer.xml

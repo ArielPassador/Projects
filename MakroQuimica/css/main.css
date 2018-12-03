@@ -1,0 +1,32 @@
+body, html{
+    height: 100%;
+    margin:0px;
+}
+
+.bg{
+    background-image: url('../img/emmanutencao.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%
+}
+
+@media (max-width : 375px){
+    .bg{
+        background-image: url(../img/emmanutencao.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 240% 100%;
+        max-width: 100%;
+    }
+}
+
+#logo-zone {
+    position: absolute;
+    top: 708px;
+    left: 15px;
+    height: 92px;
+    width: 181px;
+    background-color: transparent;
+    }

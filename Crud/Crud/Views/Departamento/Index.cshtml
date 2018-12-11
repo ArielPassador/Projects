@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Crud.Models.Departamento>
+
+@{
+    ViewBag.Title = "Departamento";
+}
+
+<h2>Departamento</h2>
+
+<p>
+    @Html.ActionLink("Adicionar novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Departamento
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartamentoNome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.DepartamentoID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.DepartamentoID }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.DepartamentoID })
+        </td>
+    </tr>
+}
+
+</table>

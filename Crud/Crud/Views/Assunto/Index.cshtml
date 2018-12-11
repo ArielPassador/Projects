@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Crud.Models.Assunto>
+
+@{
+    ViewBag.Title = "Assunto";
+}
+
+<h2>Assunto</h2>
+
+<p>
+    @Html.ActionLink("Adicionar novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Assunto
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssuntoInfo)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.AssuntoID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.AssuntoID }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.AssuntoID })
+        </td>
+    </tr>
+}
+
+</table>

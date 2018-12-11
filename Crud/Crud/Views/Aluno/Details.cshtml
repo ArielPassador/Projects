@@ -1,0 +1,49 @@
+﻿@model Crud.Models.Aluno
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            ID Aluno:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlunoID)
+        </dd>
+
+        <dt>
+            Nome:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlunoNome)
+        </dd>
+
+        <dt>
+            Assunto:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assunto.AssuntoInfo)
+        </dd>
+
+        <dt>
+            Departamento:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departamento.DepartamentoNome)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AlunoID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
